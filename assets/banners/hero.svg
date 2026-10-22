@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" role="img" aria-label="Storefront in a browser window and a task app on a phone">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcebfc"/><stop offset="1" stop-color="#e9e3fa"/></linearGradient>
+<linearGradient id="hb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a9cbf5"/><stop offset="1" stop-color="#cfc6f2"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#2f5f9e" flood-opacity=".18"/></filter>
+</defs>
+<rect width="640" height="560" rx="40" fill="url(#bg)"/>
+<circle cx="560" cy="80" r="70" fill="#cdebdf" opacity=".7"/>
+<circle cx="70" cy="500" r="56" fill="#fce6d6" opacity=".8"/>
+<!-- browser -->
+<g filter="url(#sh)">
+<rect x="48" y="84" width="440" height="320" rx="20" fill="#fff"/>
+<path d="M48 104a20 20 0 0 1 20-20h400a20 20 0 0 1 20 20v22H48z" fill="#eef4fd"/>
+<circle cx="72" cy="105" r="5" fill="#f4b6b0"/><circle cx="90" cy="105" r="5" fill="#f6d79a"/><circle cx="108" cy="105" r="5" fill="#a8dcc0"/>
+<rect x="140" y="96" width="220" height="18" rx="9" fill="#fff"/>
+<rect x="72" y="142" width="392" height="96" rx="14" fill="url(#hb)"/>
+<rect x="92" y="164" width="150" height="14" rx="7" fill="#fff" opacity=".95"/>
+<rect x="92" y="188" width="110" height="10" rx="5" fill="#fff" opacity=".7"/>
+<rect x="92" y="208" width="72" height="20" rx="10" fill="#2f5f9e"/>
+<g>
+<rect x="72" y="256" width="120" height="132" rx="12" fill="#f5f9ff" stroke="#dce9fa"/>
+<rect x="84" y="268" width="96" height="62" rx="8" fill="#d4e6fb"/>
+<rect x="84" y="342" width="70" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="84" y="358" width="40" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+<rect x="204" y="256" width="120" height="132" rx="12" fill="#f5f9ff" stroke="#dce9fa"/>
+<rect x="216" y="268" width="96" height="62" rx="8" fill="#ddd6f5"/>
+<rect x="216" y="342" width="70" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="216" y="358" width="40" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+<rect x="336" y="256" width="128" height="132" rx="12" fill="#f5f9ff" stroke="#dce9fa"/>
+<rect x="348" y="268" width="104" height="62" rx="8" fill="#cdebdf"/>
+<rect x="348" y="342" width="70" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="348" y="358" width="40" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+</g>
+</g>
+<!-- phone -->
+<g filter="url(#sh)">
+<rect x="404" y="212" width="176" height="316" rx="32" fill="#1e2a3a"/>
+<rect x="414" y="222" width="156" height="296" rx="24" fill="#fff"/>
+<rect x="468" y="230" width="48" height="8" rx="4" fill="#1e2a3a"/>
+<rect x="430" y="256" width="90" height="12" rx="6" fill="#1e2a3a" opacity=".8"/>
+<rect x="430" y="276" width="60" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+<rect x="430" y="302" width="60" height="86" rx="12" fill="#d4e6fb"/><rect x="496" y="302" width="60" height="86" rx="12" fill="#ddd6f5"/>
+<rect x="430" y="394" width="60" height="86" rx="12" fill="#cdebdf"/><rect x="496" y="394" width="60" height="86" rx="12" fill="#fce6d6"/>
+<circle cx="445" cy="318" r="6" fill="#2f5f9e"/><circle cx="511" cy="318" r="6" fill="#7a5fa8"/><circle cx="445" cy="410" r="6" fill="#3f7d78"/><circle cx="511" cy="410" r="6" fill="#b0603e"/>
+</g>
+<!-- chips -->
+<g font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">
+<rect x="372" y="64" width="104" height="32" rx="16" fill="#fff"/><text x="424" y="85" text-anchor="middle" fill="#2f5f9e">Magento 2</text>
+<rect x="498" y="124" width="84" height="32" rx="16" fill="#fff"/><text x="540" y="145" text-anchor="middle" fill="#3f7d78">Vue.js</text>
+<rect x="300" y="438" width="84" height="32" rx="16" fill="#fff"/><text x="342" y="459" text-anchor="middle" fill="#7a5fa8">Kotlin</text>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Storefront mockup with product grid and checkout panel">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4e6fb"/><stop offset="1" stop-color="#e6e1fa"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#2f5f9e" flood-opacity=".18"/></filter>
+</defs>
+<rect width="800" height="450" fill="url(#bg)"/>
+<circle cx="720" cy="60" r="90" fill="#fff" opacity=".35"/>
+<g filter="url(#sh)">
+<rect x="70" y="56" width="500" height="340" rx="20" fill="#fff"/>
+<path d="M70 76a20 20 0 0 1 20-20h460a20 20 0 0 1 20 20v22H70z" fill="#eef4fd"/>
+<circle cx="94" cy="77" r="5" fill="#f4b6b0"/><circle cx="112" cy="77" r="5" fill="#f6d79a"/><circle cx="130" cy="77" r="5" fill="#a8dcc0"/>
+<rect x="90" y="116" width="460" height="30" rx="8" fill="#f5f9ff"/><rect x="104" y="127" width="70" height="8" rx="4" fill="#1e2a3a" opacity=".7"/>
+<rect x="400" y="124" width="60" height="14" rx="7" fill="#dce9fa"/><rect x="470" y="124" width="60" height="14" rx="7" fill="#dce9fa"/>
+<rect x="90" y="160" width="460" height="86" rx="14" fill="#a9cbf5"/>
+<rect x="110" y="178" width="170" height="14" rx="7" fill="#fff"/><rect x="110" y="202" width="120" height="9" rx="4.5" fill="#fff" opacity=".7"/>
+<rect x="110" y="220" width="76" height="16" rx="8" fill="#2f5f9e"/>
+<circle cx="480" cy="204" r="32" fill="#fff" opacity=".45"/><circle cx="440" cy="224" r="18" fill="#ddd6f5"/>
+<g>
+<rect x="90" y="262" width="104" height="118" rx="12" fill="#f5f9ff" stroke="#dce9fa"/><rect x="100" y="272" width="84" height="58" rx="8" fill="#cdebdf"/><rect x="100" y="342" width="60" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="100" y="357" width="34" height="8" rx="4" fill="#2f5f9e" opacity=".6"/>
+<rect x="206" y="262" width="104" height="118" rx="12" fill="#f5f9ff" stroke="#dce9fa"/><rect x="216" y="272" width="84" height="58" rx="8" fill="#fce6d6"/><rect x="216" y="342" width="60" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="216" y="357" width="34" height="8" rx="4" fill="#2f5f9e" opacity=".6"/>
+<rect x="322" y="262" width="104" height="118" rx="12" fill="#f5f9ff" stroke="#dce9fa"/><rect x="332" y="272" width="84" height="58" rx="8" fill="#ddd6f5"/><rect x="332" y="342" width="60" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="332" y="357" width="34" height="8" rx="4" fill="#2f5f9e" opacity=".6"/>
+<rect x="438" y="262" width="112" height="118" rx="12" fill="#f5f9ff" stroke="#dce9fa"/><rect x="448" y="272" width="92" height="58" rx="8" fill="#d4e6fb"/><rect x="448" y="342" width="60" height="8" rx="4" fill="#1e2a3a" opacity=".75"/><rect x="448" y="357" width="34" height="8" rx="4" fill="#2f5f9e" opacity=".6"/>
+</g>
+</g>
+<!-- cart panel -->
+<g filter="url(#sh)">
+<rect x="540" y="130" width="196" height="236" rx="18" fill="#fff"/>
+<rect x="558" y="150" width="90" height="12" rx="6" fill="#1e2a3a" opacity=".8"/>
+<rect x="558" y="178" width="44" height="44" rx="10" fill="#cdebdf"/><rect x="612" y="184" width="100" height="9" rx="4.5" fill="#1e2a3a" opacity=".7"/><rect x="612" y="202" width="56" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+<rect x="558" y="234" width="44" height="44" rx="10" fill="#fce6d6"/><rect x="612" y="240" width="100" height="9" rx="4.5" fill="#1e2a3a" opacity=".7"/><rect x="612" y="258" width="56" height="8" rx="4" fill="#5a6b80" opacity=".5"/>
+<rect x="558" y="296" width="160" height="1.5" fill="#dce9fa"/>
+<rect x="558" y="310" width="60" height="10" rx="5" fill="#5a6b80" opacity=".5"/><rect x="664" y="308" width="54" height="14" rx="7" fill="#1e2a3a" opacity=".8"/>
+<rect x="558" y="332" width="160" height="22" rx="11" fill="#a9cbf5"/>
+</g>
+<g font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13" font-weight="700">
+<rect x="48" y="30" width="96" height="30" rx="15" fill="#fff"/><text x="96" y="50" text-anchor="middle" fill="#2f5f9e">Magento 2</text>
+<rect x="640" y="388" width="96" height="30" rx="15" fill="#fff"/><text x="688" y="408" text-anchor="middle" fill="#7a5fa8">Landing</text>
+</g>
+</svg>
