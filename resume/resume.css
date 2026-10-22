@@ -1,0 +1,33 @@
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+:root{--ink:#1e2a3a;--muted:#5a6b80;--accent:#2f5f9e;--soft:#a9cbf5;--side:#eaf2fd;--line:#dce9fa;--lav:#ddd6f5;--mint:#cdebdf}
+html,body{margin:0;padding:0}
+body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;font-size:9.6pt;line-height:1.5;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;display:grid;grid-template-columns:68mm 1fr;overflow:hidden}
+aside{background:var(--side);padding:14mm 8mm 10mm;display:flex;flex-direction:column;gap:6mm;border-right:1px solid var(--line)}
+.avatar{width:44mm;height:44mm;border-radius:50%;object-fit:cover;border:1.6mm solid #fff;box-shadow:0 2px 10px rgba(47,95,158,.25);align-self:center}
+aside h3{margin:0 0 2mm;font:700 8.4pt 'Plus Jakarta Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+aside ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1.2mm;font-size:9pt}
+aside .sub{font-weight:600;font-size:8.6pt;margin-top:1.6mm;color:var(--ink)}
+aside a{color:inherit;text-decoration:none;word-break:break-all}
+.tags{display:flex;flex-wrap:wrap;gap:1.4mm}
+.tags span{background:#fff;border:1px solid var(--line);border-radius:2mm;padding:.6mm 2mm;font-size:8.4pt}
+main{padding:14mm 12mm 10mm 11mm;display:flex;flex-direction:column;gap:5mm}
+header h1{margin:0;font:800 26pt/1.05 'Plus Jakarta Sans',sans-serif;letter-spacing:-.02em}
+header .role{margin:1.5mm 0 0;font:600 12pt 'Plus Jakarta Sans',sans-serif;color:var(--accent)}
+section h2{margin:0 0 2.4mm;padding-bottom:1.2mm;border-bottom:1.5px solid var(--soft);font:700 9.4pt 'Plus Jakarta Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase}
+p{margin:0}
+.summary{color:#41546b}
+.item{margin-bottom:3mm}
+.item:last-child{margin-bottom:0}
+.item-head{display:flex;justify-content:space-between;gap:4mm;align-items:baseline}
+.item-head b{font:700 10.4pt 'Plus Jakarta Sans',sans-serif}
+.item-head span{color:var(--muted);font-size:8.8pt;white-space:nowrap}
+.item ul{margin:1.2mm 0 0;padding-left:4.2mm;color:#41546b}
+.item li{margin-bottom:.8mm}
+.proj{display:flex;gap:2.4mm;margin-bottom:1.8mm}
+.proj .tech{flex:0 0 19mm;font:500 8.2pt 'JetBrains Mono',monospace;color:var(--accent);padding-top:.3mm}
+.proj b{font-weight:600}
+.proj span.d{color:#41546b}
+aside .k{display:block;font-size:7.6pt;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+aside li a{word-break:normal;font-size:9pt}

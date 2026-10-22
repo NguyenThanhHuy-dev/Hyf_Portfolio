@@ -30,6 +30,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .hero{display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:72px;padding-bottom:96px}
 .hero-copy{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:24px}
 .hero-art{flex:1 1 360px;min-width:0}
+.me{display:flex;align-items:center;gap:16px}
+.avatar{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 4px 14px rgba(47,95,158,.22)}
+.me-name{margin:0;font:700 18px var(--head)}
 .eyebrow,.label{margin:0;font:500 13px var(--mono);color:var(--accent);letter-spacing:.02em}
 .label{margin-bottom:12px}
 h1,h2,h3{font-family:var(--head);margin:0}
